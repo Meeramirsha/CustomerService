@@ -42,19 +42,13 @@ Create the database before running:
 CREATE DATABASE bank_management_system;
 
 
-If you prefer H2 for quick testing, replace datasource properties with H2 config, or set up Docker/MySQL and update credentials.
 
-Build & Run
-
-From the customer-service module root (where pom.xml is located):
 
 # build
 mvn clean package
 
-# run (option A)
-mvn spring-boot:run
 
-# or run the jar (option B)
+# or run the jar 
 java -jar target/customer-service-0.0.1-SNAPSHOT.jar
 
 
